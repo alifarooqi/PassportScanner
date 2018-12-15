@@ -1,0 +1,20 @@
+.upload button{
+    width: 50%;
+    background: #126566;
+    font-size: 18px;
+    padding: 10px 0;
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.upload .btn-wrapper{
+    width: 100%;
+    background: #61dafb;
+    position: absolute;
+    bottom: 0;
+}
+
+.cam-wrapper{
+    background: #282c34;
+    height: 100%;
+}

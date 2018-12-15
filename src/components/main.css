@@ -1,0 +1,136 @@
+.topNav{
+    background: #126566;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: left;
+}
+
+.topNav h1{
+    margin: 0;
+    display: inline-block;
+}
+
+.menu-icon-container {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.date{
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+    background: #fafafa;
+    margin: 0 auto;
+    width: 85%;
+    border-color: #aaaaaa;
+    border-width: 2px;
+    border-style: none solid solid solid;
+}
+
+.upcoming-flights{
+    margin: 0 auto;
+    width: 85%;
+    border-bottom: #CCCCCC 1px solid ;
+    pointer: cursor;
+}
+
+.main .btn-wrapper{
+    margin: 0 auto;
+    width: 85%;
+    border-bottom: #CCCCCC 1px solid ;
+}
+
+.upcoming-flights h4, .past-flights h4{
+    color: #668EA0;
+    text-align: left;
+}
+
+.uc-flight h3, .uc-flight h6, .p-flight h3{
+    margin: 0;
+    text-align: left;
+}
+
+.uc-flight{
+    cursor: pointer;
+    padding: 60px 0 20px 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-image: url("../img/SEA_FULL.png");
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.main .btn-wrapper button{
+    color: white;
+    background: #126566;
+    border: #ffffff solid 1px;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 35px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, #126566, white 190%);
+}
+
+.past-flights{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.p-flight{
+    cursor: pointer;
+    padding: 40px 0 15px 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#p-one{
+    background-image: url("../img/JNB_FULL.png");
+}
+
+#p-two{
+    background-image: url("../img/SVO_FULL.png");
+}
+
+#p-three{
+    background-image: url("../img/SIN_FULL.png");
+}
+
+.fa-plane-departure{
+    margin-right: 10px;
+}
